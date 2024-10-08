@@ -12,3 +12,5 @@ rm testing.py : to remove a file
   git remote -v : the URL for fetch and push has changed
   git push origin master : Push the changes on github
   git config --global user.name "your-username" : Configured git username
+
+testing git pull command by pushing a commit through github and fetch it on local.
