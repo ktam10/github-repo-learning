@@ -1,0 +1,6 @@
+GIT and GITHUB
+
+git add . : to add all the files from local sys to stage
+git status : to check status of files
+git commit -m "commit message" : to add all the files from stage to be tracked on Github
+rm testing.py : to remove a file
