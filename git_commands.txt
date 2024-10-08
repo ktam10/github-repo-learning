@@ -5,9 +5,9 @@ git status : to check status of files
 git commit -m "commit message" : to add all the files from stage to be tracked on Github
 rm testing.py : to remove a file
 
-  git remote add origin https://github.com/ktam10/github-repo-learning.git : to add the created repo on git
+  git remote add origin "URL" : to add the created repo on git
   git remote -v : Will show fetch and push origins
   git push origin master : Will throw an error due to auth issues
-  git remote set-url origin https://secret_created@github.com/ktam10/github-repo-learning.git : Created a token from github and then executed this command
+  git remote set-url origin "URL with secret" : Created a token from github and then executed this command
   git remote -v : the URL for fetch and push has changed
   git push origin master : Push the changes on github
